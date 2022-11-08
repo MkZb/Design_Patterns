@@ -1,4 +1,4 @@
-package creational.factory_method.productImpl;
+package creational.factory_method.product_impl;
 
 import creational.factory_method.Product;
 

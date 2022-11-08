@@ -1,7 +1,7 @@
 package creational.factory_method;
 
-import creational.factory_method.creatorImpl.CreatorA;
-import creational.factory_method.creatorImpl.CreatorB;
+import creational.factory_method.creator_impl.CreatorA;
+import creational.factory_method.creator_impl.CreatorB;
 
 public class Demo {
     public static void main(String[] args) {
