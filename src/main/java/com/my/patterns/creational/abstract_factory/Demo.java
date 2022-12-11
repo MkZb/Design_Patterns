@@ -4,14 +4,14 @@ import java.lang.reflect.Constructor;
 
 public class Demo {
     public static void main(String[] args) {
-        AbstractFactory af = setupFactory("creational.abstract_factory.factory_impl.ConcreteFactory1");
+        AbstractFactory af = setupFactory("com.my.patterns.creational.abstract_factory.factory_impl.ConcreteFactory1");
         ProductA productA;
         ProductB productB;
         productA = af.createProductA();
         productB = af.createProductB();
         productA.doStuff();
         productB.doStuff();
-        af = setupFactory("creational.abstract_factory.factory_impl.ConcreteFactory2");
+        af = setupFactory("com.my.patterns.creational.abstract_factory.factory_impl.ConcreteFactory2");
         productA = af.createProductA();
         productB = af.createProductB();
         productA.doStuff();
